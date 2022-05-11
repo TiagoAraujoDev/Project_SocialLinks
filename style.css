@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 48%;
+}
+body {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #FAF7FD;
+  font-family: 'Poppins', sans-serif;
+  color: #BB99DD;
+  overflow: hidden;
+
+}
+.wrapper {
+  width: 60%;
+  margin-inline: auto auto;
+  margin-block:  8rem 8rem;
+}
+.profile-picture {
+  width: 21.3rem;
+  height: 21.3rem;
+  margin-inline: auto auto;
+  margin-bottom: 2.2rem;
+  border: 0.7rem solid #fff;
+  outline: 0.2rem solid #BB99DD;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url('./assets/mEZ3PoFGs_k.jpg');
+  background-size: cover;
+}
+body a {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-block: 3.3rem 6.8rem;
+}
+.links .link {
+  text-decoration: none;
+  border: 0.2rem solid #BB99DD;
+  border-radius: 0.4rem;
+  padding: 1.2rem 0.2rem 1.3rem 0.2rem;
+}
+.links a:hover {
+  font-size: 2.5rem;
+  background-color: #BB99DD;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.9rem;
+}
+@media (min-width: 755px) {
+  .wrapper {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 30%;
+  }
+}
+
